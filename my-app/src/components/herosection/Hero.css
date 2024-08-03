@@ -1,0 +1,26 @@
+.input-bx-shadow{
+    filter: drop-shadow(-4px -4px 34px rgba(135, 135, 135, 0.493));
+}
+.cursor {
+    background-color: #fff;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999;
+    transition: transform 0.2s all ease-out;
+  }
+  .container-background{
+    font-family: 'Questrial', sans-serif;
+    height: 100vh;
+    /* background-image: url("https://wpamelia.com/wp-content/uploads/2019/02/abstract-astronomy-dark-924824.jpg"); */
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(247, 132, 25) 15.9%, rgb(240, 161, 87) 15.9%, rgb(245, 169, 98) 24.4%, rgb(29, 45, 55) 24.5%, rgb(9, 13, 17) 66%);
+    /* background-size: cover;
+    background-position: center; */
+    }
+.font-design{
+    font-family: 'Cinzel Decorative', serif;
+}

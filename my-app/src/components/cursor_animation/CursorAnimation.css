@@ -1,0 +1,38 @@
+
+.large_circle,
+.small_circle {
+  /* width: 30px;
+  height: 30px; */
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  /* background-color: #04c286; */
+  position: fixed;
+  pointer-events: none;
+  transition: transform 0.1s;
+  z-index: 999;
+}
+
+.small_circle {
+  transition-property: opacity;
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  /* transition-duration: 150ms;
+  transition-duration: 300ms; */
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  /* background-color: rgb(247, 41, 247); */
+  background-color: #e68e2e;
+  border: 5px solid;
+  border-color: black;
+  /* background-color: #e95df6; */
+
+  z-index: 10;
+  --tw-blur: blur(50px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
